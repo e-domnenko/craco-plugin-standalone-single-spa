@@ -1,6 +1,6 @@
 {
   "name": "craco-plugin-standalone-single-spa",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Craco plugin for running single-spa application standalone",
   "main": "index.js",
   "license": "MIT",

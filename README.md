@@ -30,7 +30,7 @@ yarn add -D craco-plugin-standalone-single-spa
 const SingleSpaAppcracoPlugin = require('craco-plugin-single-spa-application');
 const StandaloneSingleSpaPlugin = require("craco-plugin-standalone-single-spa");
 
-// This is configuration of craco-plugin-single-spa-application. See [their documentation](https://www.npmjs.com/package/craco-plugin-single-spa-application) for more details.
+// This is configuration of craco-plugin-single-spa-application. See documentation of craco-plugin-single-spa-application package for more details.
 const singleSpaAppPlugin = {
   plugin: SingleSpaAppcracoPlugin,
   options: {
@@ -49,7 +49,10 @@ const singleSpaStandalonePlugin = {
 
 // Keep any other configuration you are exporting from CRACO and add the plugin to the plugins array
 module.exports = {
-  plugins: [singleSpaAppPlugin]
+  plugins: [
+    singleSpaAppPlugin,
+    singleSpaStandalonePlugin
+  ]
 }
 ```
 
