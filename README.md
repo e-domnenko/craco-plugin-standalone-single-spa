@@ -2,6 +2,9 @@
 
 Craco plugin to start [single-spa](https://single-spa.js.org/) application configured with [craco-plugin-single-spa-application](https://www.npmjs.com/package/craco-plugin-single-spa-application)
 
+![](https://img.shields.io/npm/v/craco-plugin-standalone-single-spa.svg?style=flat)
+![](https://img.shields.io/npm/l/craco-plugin-standalone-single-spa.svg?style=flat)
+
 ## Dependencies
 
 This package depends on craco-plugin-single-spa-application and CRACO so be sure to configure it before trying to apply this.
