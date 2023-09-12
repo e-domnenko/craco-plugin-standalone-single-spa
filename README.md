@@ -4,6 +4,7 @@ Craco plugin to start [single-spa](https://single-spa.js.org/) application confi
 
 ![](https://img.shields.io/npm/v/craco-plugin-standalone-single-spa.svg?style=flat)
 ![](https://img.shields.io/npm/l/craco-plugin-standalone-single-spa.svg?style=flat)
+![](https://img.shields.io/npm/dt/craco-plugin-standalone-single-spa.svg?style=flat)
 
 ## Dependencies
 
